@@ -1,0 +1,29 @@
+1.0-(data indefinida)
+  Criação do programa 
+
+1.0a-(data indefinida)
+  Adição do botão para copiar query
+
+1.0b-(09/08/2006)
+  Bug de edição de ps resolvido-testado apenas na 1.0n
+
+1.0c-(18/08/2006)
+  Bug do auto serial resolvido
+
+1.0d-(21/11/2006)
+  Adição de suporte a season2
+  Adição de suporte a ancient
+  Remoção de diversos bugs
+
+1.1-(23/12/2006)
+  Adição da nova entrada
+  Adição do config form
+  Adição do sistema de linguagems
+  Remoção do bug de ao clicar em outro lugar do inventorio o item voltar pra bronze
+  Remoção de 2 novos bugs de auto serial gerados na 1.0d 
+  Remoção de bugs ao selecionar posição no inventorio
+  Remoção do bug que acontecia ao clicar no tipo do item apos escolher uma posição no inventorio
+  Uso do SQLnames.txt agora é opcional
+  Pode se usar todos os editores CMT com a nova entrada na mesma pasta
+  Adição de um sistema avançado contra retiro dos créditos
+  Adição de Ancient +5 Stamina e +10 Stamina, até então era so de +10

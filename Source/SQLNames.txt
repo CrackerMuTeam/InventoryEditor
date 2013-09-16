@@ -50,5 +50,3 @@
 "Vip"			///VIP
 "Creditos"		//creditos
 "Moedas"		//moedas
-//Character 2
-"MagicList" 		//MagicList

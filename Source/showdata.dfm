@@ -1,9 +1,9 @@
 object frmSD: TfrmSD
   Left = 268
   Top = 179
-  Width = 679
-  Height = 462
-  Caption = 'CMT-VMAT Vault Editor by Unneon'
+  Caption = 'CMT Vault Editor by Unneon'
+  ClientHeight = 428
+  ClientWidth = 671
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

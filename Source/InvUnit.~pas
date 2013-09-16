@@ -2294,17 +2294,12 @@ begin
       g:=g+cap2[i];
     for i:=2 to length(caption) do
       g2:=g2+caption[i];
-    for i:=0 to Combobox1.Items.Count-1 do
-      if Combobox1.Items[i]=g then
+    for i:=0 to cboid.Items.Count-1 do
+      if cboid.Items[i]=g then
       begin
-        Combobox1.ItemIndex:=i;
-        invform.ComboBox1Change(Combobox1);
-      end;
-    for i:=0 to Combobox2.Items.Count-1 do
-      if Combobox2.Items[i]=g2 then
-      begin
-        Combobox2.ItemIndex:=i;
-        invform.ComboBox2Click(Combobox2);
+        cboid.ItemIndex:=i;
+        frmmain.cboIDclick(cboid);
+        lerexc;
       end;
   end;
 

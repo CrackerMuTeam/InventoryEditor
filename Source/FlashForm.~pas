@@ -4190,7 +4190,7 @@ var
   ch : char;
   esc: boolean;
   s:array[1..38] of string;
-  g,g2:string;
+  g:string;
   i:integer;
   Reg: tRegistry;
   bDriversValue, bSQLKey: boolean;
@@ -4619,12 +4619,6 @@ begin
     application.MessageBox(pchar(error29),pchar(errorcaption),mb_ok+mb_iconerror);
     Exit;
   end;
-  g:=ParamStr(1);
-  g2:=ParamStr(2);
-  if (g<>'') and (g[1]='$') and (g2<>'') and (g2[1]='$') then
-  begin
-    bmsxpprogressbar1.progress:=100;
-    b:=false;
-  end;
+  
 end;
 end.
